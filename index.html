@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./src/css/styles.css">
+  <link rel="stylesheet" href="./src/css/laptop.css" media="(min-width:1024px)">
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {margin-top: 10px;}
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <main class="main">
+    <section class="container">
+      <figure class="container__figure">
+        <img class="container__figure--women" src="./images/illustration-woman-online-mobile.svg" alt="illustration-woman">
+        <div class="shadow-img"></div>
+      </figure>
+      <section class="container__info">
+        <h1>FAQ</h1>
+        <article class="container__info--questions">
+          <div class="question">
+            <p class="question-title">How many team members can I invite? <img class="icon-arrow" src="./images/icon-arrow-down.svg" alt=""></p>
+            <p class="question-para is-active">You can invite up to 2 additional users on the Free plan. There is no limit on 
+              team members for the Premium plan.</p>
+          </div>
+          <div class="question">
+            <p class="question-title">What is the maximum file upload size? <img class="icon-arrow" src="./images/icon-arrow-down.svg" alt=""></p>
+            <p class="question-para is-active">No more than 2GB. All files in your account must fit your allotted storage space.</p>
+          </div>
+          <div class="question">
+            <p class="question-title">How do I reset my password? <img class="icon-arrow" src="./images/icon-arrow-down.svg" alt=""></p>
+            <p class="question-para is-active">Click “Forgot password” from the login page or “Change password” from your profile page.
+              A reset link will be emailed to you.</p>
+          </div>
+          <div class="question">
+            <p class="question-title">Can I cancel my subscription? <img class="icon-arrow" src="./images/icon-arrow-down.svg" alt=""></p>
+            <p class="question-para is-active">Yes! Send us a message and we’ll process your request no questions asked.</p>
+          </div>
+          <div class="question">
+            <p class="question-title"> Do you provide additional support?<img class="icon-arrow" src="./images/icon-arrow-down.svg" alt=""></p>
+            <p class="question-para is-active"> Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
+          </div>
+        </article>
+      </section>
+    </section>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Antonio Espin</a>.
+    </div>
+  </main>
+  <script src="./src/js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+.main {
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  margin-top: 0;
+  padding: 100px;
+}
+
+.container__info h1 {
+  text-align: inherit;
+}
+
+.container__figure {
+  top: 50px;
+  left: -172px;
+}
+
+.shadow-img {
+  top: -285px;
+  left: 64px;
+  width: 350px;
+  height: 365px;
+  background-image: url(../../images/bg-pattern-desktop.svg);
+}

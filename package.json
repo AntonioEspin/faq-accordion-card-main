@@ -1,0 +1,16 @@
+{
+  "name": "faq-accordion-card-main",
+  "version": "1.0.0",
+  "description": "Maquetación y lógica de un accordion-card-main",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "Javascript"
+  ],
+  "author": "Antonio Espin",
+  "license": "MIT"
+}
